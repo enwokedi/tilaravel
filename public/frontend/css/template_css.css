@@ -1,0 +1,633 @@
+/*
+     FILE ARCHIVED ON 7:25:51 May 9, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 7:47:55 Dec 1, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*news item scroller*/
+.moduletable-scroller {
+    border: solid #999999;
+    border-width: 0 0 1px 0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+/*.scroller>a{
+	onmouseover: stop();
+	onmouseout: start();
+}*/
+/*----------------------*/
+
+.arr_sml {
+    margin-bottom: 5px;
+}
+
+#strapline {
+    /*font-family:"Times New Roman", Times, serif;*/
+    font-size: 16px;
+    color: white;
+    /*letter-spacing:1px;*/
+}
+.maintitle {
+    padding-top: 8px;
+    color: white;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.maintitle .subtitle {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/*//////////////////////////////////////////*/
+
+/*._title {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	font-size: 1.1em;
+	font-weight: bold;
+	color:#FFFFFF;
+}*/
+
+.linx a,
+.linx a:hover,
+.linx a:visited,
+.linx a:link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.divider {
+    background-image: url(/web/20140509072551/http://www.toleranceinternational.org.uk/templates/toleranceuk_v2/images/dot.jpg);
+    background-repeat: repeat-y;
+    /*width: 1px;*/
+}
+/* general stuff */
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    padding: 0px;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, Sans Serif;
+    line-height: 120%;
+    font-size: 11px;
+    color: #333333;
+    background: #ffffff;
+}
+
+.clr {
+    clear: both;
+}
+
+.outline {
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    padding: 2px;
+}
+
+#buttons_outer {
+    /*width: 802px;*/
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+
+#buttons_inner {
+    /*border: 1px solid #cccccc;*/
+    height: 21px !important;
+    height: 23px;
+    float: right;
+}
+
+#pathway_text {
+    overflow: hidden;
+    display: block;
+}
+
+#pathway_text img {
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+#buttons {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+ul#mainlevel-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+ul#mainlevel-nav li {
+    background-image: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    margin: 0;
+    font-size: 11px;
+    line-height: 21px;
+    white-space: nowrap;
+    border-right: 1px solid #000000;
+}
+
+ul#mainlevel-nav li a {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #8c968e;
+    background: transparent;
+}
+
+#buttons > ul#mainlevel-nav li a {
+    width: auto;
+}
+
+ul#mainlevel-nav li a:hover {
+    color: #fff;
+    background: #aab2ac;
+}
+
+/*///////////////////////////////////*/
+#search_box {
+    float: right;
+    margin-bottom: 4px;
+}
+#search_box .inputbox,
+#search_box .button {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    background: #fff;
+    color: #999;
+    border: 3px double #ccc;
+}
+#search_box .inputbox {
+    padding: 3px;
+    margin-right: 0px;
+}
+#search_box .button {
+    margin-left: -1px;
+}
+
+/*////////////////////////////////*/
+#left_inner {
+    padding: 2px;
+    /*  float: none !important;
+      float: left;*/
+    /*width: 165px;*/
+}
+
+#right_inner {
+    /*float: none !important;*/
+    /*float: left;*/
+    /*  border: 1px solid #cccccc;*/
+    padding: 20px 2px 2px 2px;
+    /*width: 165px;*/
+}
+
+#content_wrap {
+    float: none !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    margin: 0;
+    width: 590px;
+}
+
+table.content_table {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+table.content_table td {
+    padding: 0px;
+    margin: 0px;
+}
+
+#banner_inner {
+    float: left;
+    padding: 0px;
+    height: 70px;
+}
+
+#poweredby_inner {
+    float: right;
+    padding: 0px;
+    margin-left: 0px;
+    height: 70px;
+}
+
+.user1_inner {
+    border: 1px solid #cccccc;
+    float: none !important;
+    float: left;
+    margin: 0px;
+    padding: 2px;
+}
+
+.user2_inner {
+    border: 1px solid #cccccc;
+    float: none !important;
+    float: left;
+    margin: 0px;
+    padding: 2px;
+}
+
+table td.body_outer {
+    padding: 2px;
+    /*border: 1px solid #cccccc;*/
+}
+
+.error {
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/** old stuff **/
+
+.back_button {
+    float: left;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    border: 3px double #cccccc;
+    width: auto;
+    background: url(/web/20140509072551/http://www.toleranceinternational.org.uk/templates/toleranceuk_v2/images/button_bg.png)
+        repeat-x;
+    padding: 0px 10px;
+    line-height: 20px;
+    margin: 1px;
+}
+
+.pagenav {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    border: 3px double #cccccc;
+    width: auto;
+    background: url(/web/20140509072551/http://www.toleranceinternational.org.uk/templates/toleranceuk_v2/images/button_bg.png)
+        repeat-x;
+    padding: 0px 10px;
+    line-height: 20px;
+    margin: 1px;
+}
+
+.pagenavbar {
+    margin-right: 10px;
+    float: right;
+}
+
+#footer {
+    margin: 0;
+    /*border-top:1px solid #ccc;*/
+    text-align: center;
+    padding: 3px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    line-height: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    /*background-image: url(/web/20140509072551/http://www.toleranceinternational.org.uk/templates/toleranceuk_v2/images/arrow.png);*/
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+}
+
+td {
+    text-align: left;
+    font-size: 11px;
+}
+
+/* Joomla core stuff */
+a:link,
+a:visited {
+    /*color: #c64934;*/
+    color: #8c968e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    /*color: #900;*/
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table.contentpaneopen {
+    width: 100%;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin: 0px;
+}
+
+table.contentpaneopen td {
+    padding-right: 5px;
+    /*word-wrap: break-word;*/
+}
+
+table.contentpaneopen td.componentheading {
+    padding-left: 4px;
+}
+
+table.contentpane {
+    width: 100%;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin: 0px;
+}
+
+table.contentpane td {
+    margin: 0px;
+    padding: 0px;
+}
+
+table.contentpane td.componentheading {
+    padding-left: 4px;
+}
+
+table.contentpaneopen fieldset {
+    border: 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.button {
+    /*color: #c64934;*/
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    border: 3px double #cccccc;
+    width: auto;
+    background: url(/web/20140509072551/http://www.toleranceinternational.org.uk/templates/toleranceuk_v2/images/button_bg.png)
+        repeat-x;
+    padding: 0px 5px;
+    line-height: 18px !important;
+    line-height: 16px;
+    height: 26px !important;
+    height: 24px;
+    margin: 1px;
+}
+
+.inputbox {
+    padding: 2px;
+    border: solid 1px #cccccc;
+    background-color: #ffffff;
+}
+
+.componentheading {
+    background: url(/web/20140509072551/http://www.toleranceinternational.org.uk/templates/toleranceuk_v2/images/subhead_bg.png)
+        repeat-x;
+    color: #666666;
+    text-align: left;
+    padding-top: 4px;
+    padding-left: 4px;
+    height: 21px;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.contentcolumn {
+    padding-right: 5px;
+}
+
+.contentheading {
+    height: 30px;
+    /*color: #c64934;*/
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.contentpagetitle {
+    font-size: 13px;
+    font-weight: bold;
+    color: #cccccc;
+    text-align: left;
+}
+
+table.searchinto {
+    width: 100%;
+}
+
+table.searchintro td {
+    font-weight: bold;
+}
+
+table.moduletable {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+div.moduletable {
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+table.moduletable th,
+div.moduletable h3 {
+    background: url(/web/20140509072551/http://www.toleranceinternational.org.uk/templates/toleranceuk_v2/images/subhead_bg.png)
+        repeat-x;
+    color: #666666;
+    text-align: left;
+    padding-left: 4px;
+    height: 21px;
+    line-height: 21px;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 0 0 2px 0;
+}
+table.moduletable td {
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+table.pollstableborder td {
+    padding: 2px;
+}
+
+.sectiontableheader {
+    font-weight: bold;
+    background: #f0f0f0;
+    padding: 4px;
+}
+
+.sectiontablefooter {
+}
+
+.sectiontableentry1 {
+    background-color: #ffffff;
+}
+
+.sectiontableentry2 {
+    background-color: #f9f9f9;
+}
+
+.small {
+    color: #999999;
+    font-size: 11px;
+}
+
+.createdate {
+    height: 15px;
+    padding-bottom: 10px;
+    color: #999999;
+    font-size: 11px;
+}
+
+.modifydate {
+    height: 15px;
+    padding-top: 10px;
+    color: #999999;
+    font-size: 11px;
+}
+
+table.contenttoc {
+    border: 1px solid #cccccc;
+    padding: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+table.contenttoc td {
+    padding: 2px;
+}
+
+table.contenttoc th {
+    background: url(/web/20140509072551/http://www.toleranceinternational.org.uk/templates/toleranceuk_v2/images/subhead_bg.png)
+        repeat-x;
+    color: #666666;
+    text-align: left;
+    padding-top: 2px;
+    padding-left: 4px;
+    height: 21px;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+a.mainlevel:link,
+a.mainlevel:visited {
+    display: block;
+    /*background: url(/web/20140509072551/http://www.toleranceinternational.org.uk/templates/toleranceuk_v2/images/menu_bg.png) no-repeat;*/
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    /*color: #ccc;*/
+    color: #8c968e;
+    border-bottom: solid #8c968e 1px;
+    text-align: left;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 2px;
+    /*height: 20px !important;*/
+    /*height: 25px;*/
+    /*width: 100%;*/
+    text-decoration: none;
+}
+
+a.mainlevel:hover {
+    background-position: 0px -25px;
+    text-decoration: none;
+    /*color: #fff;*/
+}
+
+a.mainlevel#active_menu {
+    /*color:#fff;*/
+    font-weight: bold;
+}
+
+a.mainlevel#active_menu:hover {
+    /*color: #fff;*/
+}
+
+a.sublevel:link,
+a.sublevel:visited {
+    padding-left: 1px;
+    vertical-align: middle;
+    font-size: 11px;
+    font-weight: bold;
+    color: #c64934;
+    text-align: left;
+}
+
+a.sublevel:hover {
+    color: #900;
+    text-decoration: none;
+}
+
+a.sublevel#active_menu {
+    color: #333;
+}
+
+.highlight {
+    background-color: Yellow;
+    color: Blue;
+    padding: 0;
+}
+.code {
+    background-color: #ddd;
+    border: 1px solid #bbb;
+}
+
+form {
+    /* removes space below form elements */
+    margin: 0;
+    padding: 0;
+}
+
+div.mosimage {
+    border: 1px solid #ccc;
+}
+
+.mosimage {
+    border: 1px solid #cccccc;
+    margin: 5px;
+}
+
+.mosimage_caption {
+    margin-top: 2px;
+    background: #efefef;
+    padding: 1px 2px;
+    color: #666;
+    font-size: 10px;
+    border-top: 1px solid #cccccc;
+}
+
+span.article_seperator {
+    display: block;
+    height: 1.5em;
+}

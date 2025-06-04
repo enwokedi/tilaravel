@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+archive.org	TRUE	/	FALSE	1999999999	wayback_server	61
+web.archive.org	TRUE	/	FALSE	1999999999	57e7f67571d4fd8e465ffa7cbad230cc	-
+www.toleranceinternational.org.uk	TRUE	/	FALSE	1999999999	X-Mapping-kojlelff	1AD4BE862EBA6EA2EE28FD344E5D2310
+www.positivenews.org.uk	TRUE	/	FALSE	1999999999	PHPSESSID	osu0st719vfh0bbc745rp70tl6
+positivenews.org.uk	TRUE	/	FALSE	1999999999	PHPSESSID	73693std6u9as3ussp7n21hst3
+

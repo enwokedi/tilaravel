@@ -1,0 +1,21 @@
+<div align="center"><a href="sitemap.html">Sitemap</a>
+
+    &copy; 2014 Tolerance International /UK.&nbsp;&nbsp;Registered Charity No. 1082759.
+
+</div>
+
+<script>
+
+    var element = document.getElementsByClassName('parentmenu')[0];
+    element.addEventListener("click", function (e) {
+        var sub = document.getElementsByClassName('submenu')[0];
+        if (sub.classList.contains('subrollout')) {
+            sub.classList.add("subrollin");
+            sub.classList.remove("subrollout");
+        } else {
+            sub.classList.add("subrollout");
+            sub.classList.remove("subrollin");
+        }
+    }, false);
+
+</script>

@@ -1,0 +1,90 @@
+.submenu {
+    display: none;
+    text-align: right;
+}
+
+.submenu li {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.submenu li a:hover {
+    text-decoration: underline;
+}
+
+.menSeld {
+    color: #000000;
+    font-weight: bold;
+}
+
+.menuCol0 ul li a {
+    color: #fe9900;
+}
+
+.menuCol0 ul li a:visited {
+    color: #fe9900;
+}
+
+.menuCol1 ul li a {
+    color: #0a50fe;
+}
+
+.menuCol1 ul li a:visited {
+    color: #0a50fe;
+}
+
+.menuCol2 ul li a {
+    color: #73bd1e;
+}
+
+.menuCol2 ul li a:visited {
+    color: #73bd1e;
+}
+
+.menuCol3 ul li a {
+    color: #7b5cd1;
+}
+
+.menuCol3 ul li a:visited {
+    color: #7b5cd1;
+}
+
+.menuCol4 ul li a {
+    color: #01a0c7;
+}
+
+.menuCol4 ul li a:visited {
+    color: #01a0c7;
+}
+
+.menuCol5 ul li a {
+    color: #bfc500;
+}
+
+.menuCol5 ul li a:visited {
+    color: #bfc500;
+}
+
+.menuCol6 ul li a {
+    color: #de5d0d;
+}
+
+.menuCol6 ul li a:visited {
+    color: #de5d0d;
+}
+
+.menuCol7 ul li a {
+    color: #ff66ff;
+}
+
+.menuCol7 ul li a:visited {
+    color: #ff66ff;
+}
+
+.menuCol8 ul li a {
+    color: #ff1a00;
+}
+
+.menuCol8 ul li a:visited {
+    color: #ff1a00;
+}
