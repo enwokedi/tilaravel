@@ -27,7 +27,7 @@ Route::get('/resources', function () {return view('about-us/resources');});
 # Fundraising
 #-------------
 Route::get('/fundraising', function () {return view('fundraising/fundraising');});
-// Route::get('/for-schools', function () {return view('fundraising/for-schools');}); Blank Page
+Route::get('/for-schools', function () {return view('under-construction/under-construction');}); // Under Construction
 Route::get('/for-companies', function () {return view('fundraising/for-companies');});
 Route::get('/community-fundraising', function () {return view('fundraising/community-fundraising');});
 Route::get('/challenge-yourself', function () {return view('under-construction/under-construction');}); // Under Construction
