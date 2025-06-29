@@ -69,6 +69,7 @@ Route::get('/renewable-energy-programmes', function () {return view('overseas-pr
 # News
 #---------------------------------------------------------------------------------------------------------
 Route::get('/news', function () {return view('news/news');});
+Route::get('/tiuk-news', function () {return view('news/news');});
 Route::get('/environment', function () {return view('news/environment');});
 Route::get('/religious-intolerance', function () {return view('news/religious-intolerance');});
 Route::get('/education', function () {return view('news/education');});
@@ -76,12 +77,14 @@ Route::get('/education', function () {return view('news/education');});
 # How to Help
 #---------------------------------------------------------------------------------------------------------
 Route::get('/how-to-help', function () {return view('how-to-help/how-to-help');});
+Route::get('/for-groups-and-individuals', function () {return view('how-to-help/how-to-help');});
 Route::get('/volunteer', function () {return view('how-to-help/volunteering');});
 # /donate link points to http://www.justgiving.com/process/whitelabel/?_WhiteLabelId=1240 but resource is no longer available
 Route::get('/shop-tolerance', function () {return view('how-to-help/shop-tolerance');});
 Route::get('/sign-up-for-ebulletin', function () {return view('how-to-help/sign-up-for-ebulletin');});
 Route::get('/leave-a-legacy', function () {return view('how-to-help/leave-a-legacy');});
 Route::get('/support-our-work', function () {return view('how-to-help/support-our-work');});
+Route::get('/fundraising-for-ti', function () {return view('fundraising/fundraising');});
 
 # Contact Us
 #---------------------------------------------------------------------------------------------------------
@@ -90,11 +93,6 @@ Route::get('/how-to-find-us', function () {return view('contact/how-to-find-us')
 Route::get('/work-with-us', function () {return view('contact/vacancies-at-tolerance-international-uk');});
 Route::get('/corporate-support', function () {return view('contact/corporate-support');});
 Route::get('/please-ask-us', function () {return view('contact/please-ask-us');});
-
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
-
 Route::get('/press', function () {return view('contact/press');});
 
 # PDFs
